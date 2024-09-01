@@ -1,0 +1,356 @@
+﻿@* @page "/da"
+
+
+<HeadContent>
+    <link href="css/detail.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="css/admin.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+</HeadContent>
+<nav class="navbar navbar-expand sticky-top background-blue" style="background-color: #afd1de;">
+    <a href="trangchu" class="navbar-brand mx-4 mb-1">
+        <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>CPre</h3>
+    </a>
+
+    <div class="navbar-nav align-items-center ms-auto">
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#vipRechargeModal">
+                <i class="fa fa-bell me-lg-2"></i>
+                <span class="d-none d-lg-inline-flex text-black">Nạp VIP</span>
+            </a>
+        </div>
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                <img class="rounded-circle me-lg-2" src="css/image/user.svg" alt="" style="width: 40px; height: 40px;">
+                <span class="d-none d-lg-inline-flex text-black">Admin1</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                <a href="#" class="dropdown-item" onclick="sendUrl('profile')">Profile</a>
+                <a href="#" class="dropdown-item" onclick="sendUrl('password')">Settings</a>
+                <a href="admin_signin.html" class="dropdown-item">Sign Out</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="wrapper m-2">
+
+    <div class="content">
+        <table class="table stock-table table-striped table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th scope="col" rowspan="2">Mã CK</th>
+                    <th scope="col" rowspan="2">Open</th>
+                    <th scope="col" rowspan="2">High</th>
+                    <th scope="col" rowspan="2">Low</th>
+                    <th scope="col" rowspan="2">Close</th>
+                    <th scope="col" rowspan="2">Volume</th>
+                    <th scope="col" rowspan="2">Dividends</th>
+                    <th scope="col" rowspan="2">Stock Splits</th>
+
+                </tr>
+            <tbody>
+                    @foreach (var stock in stockData)
+                    {
+                    <tr>
+                        <td>@stock.Ticker</td>
+                        <td>@stock.Open</td>
+                        <td>@stock.High</td>
+                        <td>@stock.Low</td>
+                        <td>@stock.Close</td>
+                        <td>@stock.Volume</td>
+                        <td>@stock.Dividends</td>
+                        <td>@stock.StockSplits</td>
+                    </tr>
+                    }
+            </tbody>
+            </thead>
+        </table>
+    </div>
+</div>
+
+<!-- Cửa sổ Nạp VIP -->
+<form onsubmit="handleFormSubmit(event)">
+    <div class="modal fade" id="vipRechargeModal" tabindex="-1" aria-labelledby="vipRechargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content" style="width:700px; height:500px; right: 50px ">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="vipRechargeModalLabel">Nạp VIP</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+                </div>
+                <div class="modal-body d-flex">
+                    <div class="col-5 pe-3">
+                        <div class="p-3 rounded-3" style="border: solid 1px green; height: 100%">
+                            <div>
+                                <h3>VIP</h3>
+                                <p class="m-0">Phù hợp theo dõi hàng ngày</p>
+                                <span class="fw-bold" style="color: red; font-size: 20px;">80,000 </span><span>VNĐ / Tháng</span>
+                            </div>
+                            <div class="mt-3">
+                                <div class="d-flex">
+                                    <i class="bi bi-check-circle-fill me-2 color-green"></i>
+                                    <p>Các mã cập nhật hàng ngày</p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="bi bi-check-circle-fill me-2 color-green"></i>
+                                    <p>Sử dụng biểu đồ so sánh mã</p>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="bi bi-check-circle-fill me-2 color-green"></i>
+                                    <p>Dự đoán mã</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-7 ps-2" style="border-left: solid 1px #85929E">
+                        <div class="mb-3">
+                            <label for="vipAmount" class="form-label">Chọn gói</label>
+                            <div class="">
+                                <select class="form-select bg-white" style=" width: 300px;" required>
+                                    <option></option>
+                                    <option>80,000 VNĐ/ 1 Tháng</option>
+                                    <option>140,000 VNĐ/ 2 Tháng</option>
+                                    <option>140,000 VNĐ/ 2 Tháng</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Phương thức thanh toán</p>
+                        </div>
+                        <div class="form-check ">
+                            <input class="form-check-input mt-4" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <div class="d-flex p-2 rounded-4" style="border: solid 1px #3698F0">
+                                <img src="logo.png" alt="Alternate Text" style="height:65px; width:65px" />
+                                <p class="ps-3 mt-2">Thanh toán qua Internet Banking, Mã QRCode</p>
+                            </div>
+
+                        </div>
+
+                        <div class="payment-details shadow rounded-3 mt-3 p-2" style="background-color: #F2F3F4">
+                            <div class="pb-2 d-flex" style="border-bottom: solid 1px #D5D8DC ">
+                                <span>Gói tài khoản 1 Tháng: </span>
+                                <span class="ms-auto">40,000 VNĐ</span>
+                            </div>
+                            <div class="mt-2 d-flex">
+                                <span>Số tiền thanh toán: </span>
+                                <span class="fw-bold ms-auto" style="color: red">40,000 VNĐ</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary rounded-3 mt-4" style="width: 100%">Xác nhận thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+<!-- Modal thanh toán chi tiết -->
+<div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="paymentModalLabel">Chi tiết thanh toán</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex">
+                <div class="col-6">
+                    <h5>Thông tin đơn hàng</h5>
+                    <p>Số tiền thanh toán: 40.000 VNĐ</p>
+                    <p>Giá trị đơn hàng: 40.000 VNĐ</p>
+                    <p>Phí giao dịch: 0 VNĐ</p>
+                    <p>Mã đơn hàng: 13899</p>
+                    <p>Nhà cung cấp: CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ VÀ CÔNG NGHỆ PTCORP</p>
+                </div>
+                <div class="col-6 text-center">
+                    <h5>Quét mã qua ứng dụng Ngân hàng/ Ví điện tử</h5>
+                    <img src="https://via.placeholder.com/200x200.png?text=QR+Code" alt="QR Code">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy thanh toán</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRkXQe8xg8pdqU4yzP5CcEN3J5IRfSJkl9XGzJlh" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRkXQe8xg8pdqU4yzP5CcEN3J5IRfSJkl9XGzJlh" crossorigin="anonymous"></script>
+
+
+<script>
+    // Function to open payment modal
+    function openPaymentModal() {
+        var paymentModal = new bootstrap.Modal(document.getElementById('paymentModal'));
+        paymentModal.show();
+    }
+
+    // Function to handle form submission
+    function handleFormSubmit(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        var vipRechargeModalElement = document.getElementById('vipRechargeModal');
+        var vipRechargeModal = bootstrap.Modal.getInstance(vipRechargeModalElement);
+
+        if (vipRechargeModal) {
+            vipRechargeModal.hide(); // Hide VIP Recharge modal if it's open
+        }
+
+        openPaymentModal(); // Show payment modal
+    }
+
+    // When the payment modal is hidden
+    document.getElementById('paymentModal').addEventListener('hidden.bs.modal', function () {
+        var vipRechargeModalElement = document.getElementById('vipRechargeModal');
+        var vipRechargeModal = new bootstrap.Modal(vipRechargeModalElement);
+
+        vipRechargeModal.show(); // Show VIP Recharge modal when payment modal is hidden
+    });
+</script>
+
+
+@using Python.Runtime;
+@using System;
+@using System.Collections.Generic;
+@using Microsoft.AspNetCore.Components;
+@inject StockService StockService
+@code {
+    // public class StockData
+    // {
+    //     public string Ticker { get; set; }
+    //     public float Open { get; set; }
+    //     public float High { get; set; }
+    //     public float Low { get; set; }
+    //     public float Close { get; set; }
+    //     public float AdjClose { get; set; }
+    //     public long Volume { get; set; }
+    // }
+
+    private List<StockData> stockData;
+
+    protected override void OnInitialized()
+    {
+        var tickers = new List<string> { "BTC-USD", "AAPL", "GOOGL", "GC=F", "TSLA", "HPC", "CL=F", "GBP=X", "SI=F" };
+        stockData = StockService.GetStockData(tickers);
+    }
+    // private List<StockData> stockData = new List<StockData>();
+
+    // protected override void OnInitialized()
+    // {
+    //     if (!PythonEngine.IsInitialized)
+    //     {
+    //         // Đặt thuộc tính PythonDLL trước khi khởi tạo runtime của Python
+    //         Runtime.PythonDLL = @"C:\Users\phanp\AppData\Local\Programs\Python\Python312\python312.dll";
+    //         PythonEngine.Initialize();
+    //     }
+
+    //     RunScript();
+    // }
+
+    // private void RunScript()
+    // {
+    //     try
+    //     {
+    //         using (Py.GIL())
+    //         {
+    //             dynamic yf = Py.Import("yfinance");
+    //             dynamic data = yf.Ticker("BTC-USD");
+    //             dynamic hist = data.history(period: "1mo");
+
+    //             foreach (dynamic row in hist.itertuples())
+    //             {
+    //                 stockData.Add(new StockData
+    //                     {
+    //                         Ticker = "BTC-USD",
+    //                         Open = (float)row.Open,
+    //                         High = (float)row.High,
+    //                         Low = (float)row.Low,
+    //                         Close = (float)row.Close,
+    //                         AdjClose = (float)row["Adj Close"],
+    //                         Volume = (long)row.Volume
+    //                     });
+    //             }
+    //         }
+    //     }
+    //     catch (PythonException ex)
+    //     {
+    //         Console.WriteLine($"Python error: {ex.Message}");
+    //     }
+    //     catch (Exception ex)
+    //     {
+    //         Console.WriteLine($"Error: {ex.Message}");
+    //     }
+    // }
+
+    // // Có thể thêm một phương thức để dọn dẹp tài nguyên nếu cần
+    // private void DisposePythonEngine()
+    // {
+    //     if (PythonEngine.IsInitialized)
+    //     {
+    //         PythonEngine.Shutdown();
+    //     }
+    // }
+
+    // public class StockService
+    // {
+    //     public List<StockData> GetStockData()
+    //     {
+    //         List<StockData> stockDataList = new List<StockData>();
+
+    //         // Set the path to the Python DLL
+    //         Runtime.PythonDLL = @"C:\Users\phanp\AppData\Local\Programs\Python\Python312\python312.dll";
+    //         PythonEngine.Initialize();
+
+    //         try
+    //         {
+    //             using (Py.GIL())
+    //             {
+    //                 // Import yfinance and get the data
+    //                 dynamic yf = Py.Import("yfinance");
+    //                 dynamic data = yf.Ticker("BTC-USD");
+    //                 dynamic hist = data.history(period: "1mo");
+
+    //                 // Convert the data to a list of StockData
+    //                 foreach (var item in hist.iterrows())
+    //                 {
+    //                     var date = item[0];
+    //                     var row = item[1];
+    //                     stockDataList.Add(new StockData
+    //                         {
+    //                             Ticker = "BTC-USD",
+    //                             Open = (double)row["Open"],
+    //                             High = (double)row["High"],
+    //                             Low = (double)row["Low"],
+    //                             Close = (double)row["Close"],
+    //                             AdjClose = (double)row["Adj Close"],
+    //                             Volume = (long)row["Volume"]
+    //                         });
+    //                 }
+    //             }
+    //         }
+    //         catch (PythonException ex)
+    //         {
+    //             // Handle Python errors
+    //             Console.WriteLine($"Python error: {ex.Message}");
+    //         }
+    //         catch (Exception ex)
+    //         {
+    //             // Handle any other errors
+    //             Console.WriteLine($"Error: {ex.Message}");
+    //         }
+    //         finally
+    //         {
+    //             PythonEngine.Shutdown();
+    //         }
+
+    //         return stockDataList;
+    //     }
+    // }
+} *@

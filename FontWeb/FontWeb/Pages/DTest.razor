@@ -1,0 +1,442 @@
+﻿@page "/dtest/{symbol}"
+
+<HeadContent>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/detail.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+</HeadContent>
+
+<div class="container-fluid position-relative d-flex p-0">
+
+    <div class=" pe-4 pb-3" style="width:200px; ">
+        <nav class="navbar text-dark ">
+            <a href="trangchu" class="navbar-brand mx-4 mb-3">
+                <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>CPre</h3>
+            </a>
+            <div class="mt-3 ms-2">           
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/btc.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/BTC">BTC</a></p>
+                    </div>
+                </div>
+
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/eth.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/ETH">ETH</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/usdt.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/USDT">USDT</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/bnbb.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/BNB">BNB</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/sol.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/SOL">SOL</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/usdc.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/USDC">USDC</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/xrp.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/XRP">XRP</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/doge.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/DOGE">DOGE</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/ada.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/ADA">ADA</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/trx.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/TRX">TRX</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/wbtc.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/WBTC">WBTC</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/avax.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/AVAX">AVAX</a></p>
+                    </div>
+                </div>
+                <div class="d-flex w-100 ms-3 mb-3">
+                    <div>
+                        <img class="rounded-circle me-lg-2" src="images/shib.png" alt="" style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="ms-2 mt-2">
+                        <p><a href="/dtest/SHIB">SHIB</a></p>
+                    </div>
+                </div>
+            </div>
+            @* <div class="nav-item dropdown ">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                    <span class="d-none d-lg-inline-flex text-black">Chọn Stock 1</span>
+                </a>
+                <div class="dropdown-menu " style="margin-left:45px; min-width: 5rem;">
+                    <a href="#" class="dropdown-item" style="width:10px">ACB</a>
+                    <a href="#" class="dropdown-item" >ACB</a>
+                    <a href="#" class="dropdown-item">ACB</a>
+                </div>
+            </div> *@
+            
+            @* <div class="dropdown" style="margin-left: 12px">  
+                <div>
+                    <a href="#" class="nav-link">
+                        <span class="d-none d-lg-inline-flex text-black">Chọn Stock 1</span>
+                    </a>
+
+                    <div class="">
+                        <select class="form-select bg-white" style="margin-left:12px; width: 100px; padding-left:12px" required>
+                            <option></option>
+                            <option>CMC</option>
+                            <option>CMC</option>
+                            <option>ACB</option>
+                        </select>
+                    </div>
+                </div>
+                
+
+                <div>
+					<a href="#" class="nav-link">
+						<span class="d-none d-lg-inline-flex text-black">Chọn Stock 2</span>
+					</a>
+
+					<div class="">
+						<select class="form-select bg-white" style="margin-left:12px; width: 100px; padding-left:12px" required>
+							<option></option>
+							<option>CMC</option>
+							<option>CMC</option>
+							<option>ACB</option>
+						</select>
+					</div>
+                </div>
+			</div>*@
+
+        </nav>
+    </div>
+
+    <div class="content w-100 background-gray">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand sticky-top background-blue">
+
+            <div class="navbar-nav align-items-center ms-auto">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link">
+                        <i class="fa fa-bell me-lg-2"></i>
+                        <span class="d-none d-lg-inline-flex text-black">Nạp VIP</span>
+                    </a>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <img class="rounded-circle me-lg-2" src="css/image/user.svg" alt="" style="width: 40px; height: 40px;">
+                        <span class="d-none d-lg-inline-flex text-black">Admin1</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
+                        <a href="#" class="dropdown-item" onclick="sendUrl('profile')">Profile</a>
+                        <a href="#" class="dropdown-item" onclick="sendUrl('password')">Settings</a>
+                        <a href="admin_signin.html" class="dropdown-item">Sign Out</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+        <div class="content1 w-100 ">
+            <div class="row " style="margin: 12px">
+                <div class="col-sm-6 col-xl-3 d-flex w-100 bg-white rounded">
+                    <div class=" d-flex justify-content-between p-4 rounded bg-white">
+                        <Icon Name="IconName.BarChartFill" Size="IconSize.x1" Class="icon" />
+                        <div class="ms-3">
+                            <p class="mb-2 ">Total member</p>
+                            <h6 class="mb-0">400 </h6>
+                        </div>
+                    </div>
+
+                    <div class=" d-flex justify-content-between p-4 rounded bg-white">
+                        <Icon Name="IconName.GraphUpArrow" Size="IconSize.x1" Class="icon" />
+                        <div class="ms-3">
+                            <p class="mb-2">Total Sale</p>
+                            <h6 class="mb-0">$1234</h6>
+                        </div>
+                    </div>
+
+                    <div class=" d-flex justify-content-between p-4 rounded bg-white">
+                        <Icon Name="IconName.GraphUpArrow" Size="IconSize.x1" Class="icon" />
+                        <div class="ms-3">
+                            <p class="mb-2">Today Revenue</p>
+                            <h6 class="mb-0">$1234</h6>
+                        </div>
+                    </div>
+
+                    <div class=" d-flex justify-content-between p-4 rounded bg-white">
+                        <Icon Name="IconName.GraphUpArrow" Size="IconSize.x1" Class="icon" />
+                        <div class="ms-3">
+                            <p class="mb-2">Total Revenue</p>
+                            <h6 class="mb-0">$1234</h6>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Sales Chart Start -->
+        <div class="container-fluid background-gray">
+            <div class="row ">
+                <div class="col-sm-6 col-md-9 chart-container" style="padding:0px 12px 0px 0px">
+                    <div class="bg-white text-center rounded p-4">
+
+                        <SfStockChart Title="Stock Price Analysis" Height="600px" Width="100%">
+                            <StockChartZoomSettings EnableMouseWheelZooming="true" EnablePinchZooming="true" EnableSelectionZooming="true" ToolbarItems="@ToolbarItem">
+                            </StockChartZoomSettings>
+                            <StockChartCrosshairSettings Enable="true" LineType="LineType.Vertical"></StockChartCrosshairSettings>
+
+                            <StockChartTooltipSettings Enable="true" Shared="true" TooltipPosition="TooltipPosition.Nearest">
+                            </StockChartTooltipSettings>
+
+                            <StockChartCrosshairSettings Enable="true"></StockChartCrosshairSettings>
+                            <StockChartLegendSettings Visible="true"></StockChartLegendSettings>
+
+
+                            <StockChartPrimaryXAxis>
+                                <StockChartAxisMajorGridLines Color="Transparent"></StockChartAxisMajorGridLines>
+                                <StockChartAxisCrosshairTooltip Enable="true"></StockChartAxisCrosshairTooltip>
+                                <StockChartAxisMajorGridLines Width="0"></StockChartAxisMajorGridLines>
+                            </StockChartPrimaryXAxis>
+
+                            <StockChartPrimaryYAxis>
+                                <StockChartAxisLineStyle Color="Transparent"></StockChartAxisLineStyle>
+                                <StockChartAxisMajorTickLines Color="Transparent" Width="0"></StockChartAxisMajorTickLines>
+                                <StockChartAxisCrosshairTooltip Enable="true"></StockChartAxisCrosshairTooltip>
+                                <StockChartAxisLineStyle Width="0"></StockChartAxisLineStyle>
+                                <StockChartAxisMajorTickLines Width="0"></StockChartAxisMajorTickLines>
+                            </StockChartPrimaryYAxis>
+
+                            <StockChartSeriesCollection>
+                                <StockChartSeries DataSource="@StockDetails" Type="ChartSeriesType.Candle"
+                                                  XName="Date" High="High" Low="Low" Open="Open" Close="Close" Volume="Volume"
+                                                  Fill="Green">
+
+                                </StockChartSeries>
+                            </StockChartSeriesCollection>
+                        </SfStockChart>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 p-0 d-flex">
+                    <div class="bg-white rounded p-4 flex-fill">
+
+@*                         @if (cryptoDatas != null)
+{ *@
+                        <div class="d-flex align-items-center justify-content-between mb-3">
+                            <h5 class="mb-0 text-dark">@cryptoData?.Symbol</h5>
+                            <button class="background-blue">Dự đoán</button>
+                        </div>
+                        <div class="d-flex">
+                            <p class="mb-0 text-dark">cmc_rank</p>
+                            <p class="mb-1 text-dark ms-auto bd-highlight fw-bold">@cryptoData?.CmcRank</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="mb-0 text-dark">Price</p>
+                            <p class="mb-1 text-dark ms-auto bd-highlight fw-bold">@cryptoData?.Price.ToString("N2")$</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="mb-0 text-dark">num_market_pairs</p>
+                            <p class="mb-1 text-dark ms-auto bd-highlight fw-bold">@cryptoData?.MarketPairs.ToString("N2")</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="mb-0 text-dark">max_supply</p>
+                            <p class="mb-1 text-dark ms-auto bd-highlight fw-bold">@cryptoData?.MaxSupply</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="mb-0 text-dark">circulating_supply</p>
+                            <p class="mb-1 text-dark ms-auto bd-highlight fw-bold">@cryptoData?.CirculatingSupply</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="mb-0 text-dark">total_supply</p>
+                            <p class="mb-1 text-dark ms-auto bd-highlight fw-bold">@cryptoData?.TotalSupply</p>
+                        </div>
+                        <div class="d-flex">
+                            <p class="mb-0 text-dark">market_cap</p>
+                            <p class="mb-1 text-dark ms-auto bd-highlight fw-bold">@cryptoData?.MarketCapDominance.ToString("N2")%</p>
+                        </div>
+      @*                               }else
+                            {
+                                <p>Đang tải dữ liệu...</p>
+                            } *@
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="container-fluid p-0" >
+            <div class="bg-secondary rounded-top p-4 bg-white " style="margin:12px 12px 0px 12px">
+                <div class="">
+                    <div class="col-12 col-sm-6 text-center text-sm-start ">
+                        Copyright © 2023 Group 6 - 22IT1 - CMC Uni.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+    </div>
+    <!-- Content End -->
+</div>
+@using FontWeb.Data
+@inject StockServices StockServices
+@inject CryptoService CryptoService
+
+@using FontWeb.Service
+@code {
+    @using System.Data.SqlClient
+    @using Microsoft.EntityFrameworkCore.Metadata.Internal
+    @using Microsoft.JSInterop
+    @using Microsoft.EntityFrameworkCore;
+    @inject IJSRuntime JSRuntime
+    @inject StockDataServiceCsv StockDataServiceCsv
+    @inject NavigationManager Navigation
+
+    private async Task PrintData()
+    {
+        await CryptoService.GetCryptoDataBySymbolAsync("BTC");
+    }
+
+    private void NavigateToSymbol(string symbol)
+    {
+        Navigation.NavigateTo($"/dtest/{symbol}");
+    }
+
+    public List<ToolbarItems> ToolbarItem = new List<ToolbarItems>() { ToolbarItems.Zoom, ToolbarItems.Reset, ToolbarItems.Pan };
+
+    [Parameter]
+    public string symbol { get; set; }
+
+    private CryptoData cryptoDatas;
+
+    private List<StockChartCsvData> StockDetails;
+
+    private Service.StockData stockData;
+
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     if (!string.IsNullOrEmpty(symbol))
+    //     {
+    //         cryptoDatas = await CryptoService.GetCryptoDataBySymbolAsync(symbol);
+    //     }
+
+    //     Console.WriteLine($"Current symbol: {symbol}");
+    //     var filePath = $"DataCsv\\{symbol}-USD.csv";
+
+    //     // Nạp dữ liệu từ file CSV
+    //     StockDetails = StockDataServiceCsv.GetStockDataFromCsv(filePath);
+
+    //     // Cập nhật giao diện sau khi dữ liệu thay đổi
+    //     StateHasChanged();
+
+    //     // Vì đây là một phương thức async, bạn có thể xử lý các tác vụ bất đồng bộ tại đây.
+    //     // Nếu không có tác vụ async nào, hãy sử dụng Task.CompletedTask để tránh cảnh báo.
+    //     await Task.CompletedTask;
+    // }
+
+    private CryptoData cryptoData;
+    protected override async Task OnInitializedAsync()
+    {
+        // Gọi hàm để lấy dữ liệu cho symbol BTC
+
+        var filePath = $"DataCsv\\{symbol}-USD.csv";
+
+        // Nạp dữ liệu từ file CSV
+        StockDetails = StockDataServiceCsv.GetStockDataFromCsv(filePath);
+        cryptoData = await CryptoService.GetCryptoDataBySymbolAsync(symbol);
+
+        // Cập nhật giao diện sau khi dữ liệu thay đổi
+        StateHasChanged();
+
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        try
+        {
+            if (!string.IsNullOrEmpty(symbol))
+            {
+                Console.WriteLine($"Current symbol: {symbol}");
+
+                var filePath = $"DataCsv\\{symbol}-USD.csv";
+
+                // Nạp dữ liệu từ file CSV
+                StockDetails = StockDataServiceCsv.GetStockDataFromCsv(filePath);
+
+                // Cập nhật giao diện sau khi dữ liệu thay đổi
+                StateHasChanged();
+            }
+            else
+            {
+                Console.WriteLine("Symbol is null or empty.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading data: {ex.Message}");
+        }
+
+        await Task.CompletedTask;
+    }
+
+}

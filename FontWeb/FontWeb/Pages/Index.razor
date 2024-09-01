@@ -1,0 +1,61 @@
+﻿@page "/finance-chart"
+@using FontWeb.Data
+@using FontWeb.Service
+@inject StockService StockService
+@inject ApiService apiservice
+@inherits ComponentBase
+
+
+    <div class="card">
+        <div class="card-body">
+            @ChildContent
+        </div>
+    </div>
+    <SfStockChart Title="Stock Price Analysis" Height="600px" Width="100%">
+        <StockChartCrosshairSettings Enable="true" LineType="LineType.Vertical"></StockChartCrosshairSettings>
+
+        <StockChartTooltipSettings Enable="true" Shared="true" TooltipPosition="TooltipPosition.Nearest">
+        </StockChartTooltipSettings>
+
+        <StockChartCrosshairSettings Enable="true"></StockChartCrosshairSettings>
+        <StockChartLegendSettings Visible="true"></StockChartLegendSettings>
+        <StockChartZoomSettings EnableMouseWheelZooming="true" EnablePinchZooming="true" EnableSelectionZooming="true"></StockChartZoomSettings>
+
+        <StockChartPrimaryXAxis>
+            <StockChartAxisMajorGridLines Color="Transparent"></StockChartAxisMajorGridLines>
+            <StockChartAxisCrosshairTooltip Enable="true"></StockChartAxisCrosshairTooltip>
+            <StockChartAxisMajorGridLines Width="0"></StockChartAxisMajorGridLines>
+        </StockChartPrimaryXAxis>
+
+        <StockChartPrimaryYAxis>
+            <StockChartAxisLineStyle Color="Transparent"></StockChartAxisLineStyle>
+            <StockChartAxisMajorTickLines Color="Transparent" Width="0"></StockChartAxisMajorTickLines>
+            <StockChartAxisCrosshairTooltip Enable="true"></StockChartAxisCrosshairTooltip>
+            <StockChartAxisLineStyle Width="0"></StockChartAxisLineStyle>
+            <StockChartAxisMajorTickLines Width="0"></StockChartAxisMajorTickLines>
+        </StockChartPrimaryYAxis>
+
+        <StockChartSeriesCollection>
+            <StockChartSeries DataSource="@StockDetails" Type="ChartSeriesType.Candle"
+                              XName="Date" High="High" Low="Low" Open="Open" Close="Close" Volume="Volume" Name="BTC-USD"
+                              Fill="Green">
+
+            </StockChartSeries>
+        </StockChartSeriesCollection>
+    </SfStockChart>
+
+
+@inject StockDataServiceCsv StockDataServiceCsv
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    public List<TrendlineTypes> TrendlineType { get; set; }
+    private List<StockChartCsvData> StockDetails;
+
+    protected override void OnInitialized()
+    {
+        var filePath = "Data\\BTC-USD.csv"; // Đặt đường dẫn đến file CSV của bạn
+        StockDetails = StockDataServiceCsv.GetStockDataFromCsv(filePath);
+    }
+}

@@ -1,0 +1,66 @@
+﻿body {
+}
+
+@media (min-width: 641px) {
+    .top-row, article {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.display-flex{
+    display: flex;
+}
+
+.background-beige{
+    background-color: beige;
+}
+
+.background-gray {
+    background-color: #e7e7e7;
+}
+
+.background-blue {
+    background-color: #afd1de;
+}
+
+.text-black{
+    color: black;
+}
+
+.dropdown-menu {
+    min-width: 5rem;
+}
+
+.color-green{
+    color: limegreen;
+}
+
+.text-green {
+    color: #1bc61b !important; /* Màu xanh lá cây */
+}
+
+.text-red {
+    color: red;
+}
+
+.text-success {
+    color: #00FF00 !important; /* Màu xanh lá cây */
+}
+path[Attributes Style] {
+    fill: rgb(46, 205, 113) !important;
+    stroke: rgb(46, 205, 113) !important;
+}
+
+.chart-container {
+    padding-right: 20px; /* Adjust this value to increase or decrease the spacing */
+}
+
+/* Add this to your detail.css file or inside a <style> block */
+#stockchart-cdf93b46-2be9-49df-b709-54b8717fa682_stockChart_chartAxisGroup1Outside {
+    /* Example styles */
+    margin-right: 20px; /* Adjust this value for desired spacing */
+    padding: 10px; /* Example padding */
+    background-color: #f9f9f9; /* Example background color */
+    border-radius: 5px; /* Example border radius */
+}
