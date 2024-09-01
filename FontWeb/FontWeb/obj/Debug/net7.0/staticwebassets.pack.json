@@ -1,147 +1,147 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FontWeb.bundle.scp.css",
-      "PackagePath": "staticwebassets\\FontWeb.bundle.scp.css"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/obj/Debug/net7.0/scopedcss/projectbundle/FontWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets/FontWeb.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\chart.js",
-      "PackagePath": "staticwebassets\\chart.js"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/chart.js",
+      "PackagePath": "staticwebassets/chart.js"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\detail.css",
-      "PackagePath": "staticwebassets\\css\\detail.css"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/detail.css",
+      "PackagePath": "staticwebassets/css/detail.css"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\login.css",
-      "PackagePath": "staticwebassets\\css\\login.css"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/login.css",
+      "PackagePath": "staticwebassets/css/login.css"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "PackagePath": "staticwebassets\\css\\open-iconic"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
-      "PackagePath": "staticwebassets\\css\\open-iconic"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\README.md",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
-      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\ada.png",
-      "PackagePath": "staticwebassets\\images\\ada.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/ada.png",
+      "PackagePath": "staticwebassets/images/ada.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\avax.png",
-      "PackagePath": "staticwebassets\\images\\avax.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/avax.png",
+      "PackagePath": "staticwebassets/images/avax.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\bnbb.png",
-      "PackagePath": "staticwebassets\\images\\bnbb.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/bnbb.png",
+      "PackagePath": "staticwebassets/images/bnbb.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\btc.png",
-      "PackagePath": "staticwebassets\\images\\btc.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/btc.png",
+      "PackagePath": "staticwebassets/images/btc.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\doge.png",
-      "PackagePath": "staticwebassets\\images\\doge.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/doge.png",
+      "PackagePath": "staticwebassets/images/doge.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\eth.png",
-      "PackagePath": "staticwebassets\\images\\eth.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/eth.png",
+      "PackagePath": "staticwebassets/images/eth.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\shib.png",
-      "PackagePath": "staticwebassets\\images\\shib.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/shib.png",
+      "PackagePath": "staticwebassets/images/shib.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\sol.png",
-      "PackagePath": "staticwebassets\\images\\sol.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/sol.png",
+      "PackagePath": "staticwebassets/images/sol.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\trx.png",
-      "PackagePath": "staticwebassets\\images\\trx.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/trx.png",
+      "PackagePath": "staticwebassets/images/trx.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\usdc.png",
-      "PackagePath": "staticwebassets\\images\\usdc.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/usdc.png",
+      "PackagePath": "staticwebassets/images/usdc.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\usdt.png",
-      "PackagePath": "staticwebassets\\images\\usdt.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/usdt.png",
+      "PackagePath": "staticwebassets/images/usdt.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\wbtc.png",
-      "PackagePath": "staticwebassets\\images\\wbtc.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/wbtc.png",
+      "PackagePath": "staticwebassets/images/wbtc.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\images\\xrp.png",
-      "PackagePath": "staticwebassets\\images\\xrp.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/images/xrp.png",
+      "PackagePath": "staticwebassets/images/xrp.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\logo.png",
-      "PackagePath": "staticwebassets\\logo.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/logo.png",
+      "PackagePath": "staticwebassets/logo.png"
     },
     {
-      "Id": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\wwwroot\\nen.png",
-      "PackagePath": "staticwebassets\\nen.png"
+      "Id": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/wwwroot/nen.png",
+      "PackagePath": "staticwebassets/nen.png"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FontWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.FontWeb.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FontWeb.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.FontWeb.props",
       "PackagePath": "build\\FontWeb.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FontWeb.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.FontWeb.props",
       "PackagePath": "buildMultiTargeting\\FontWeb.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FontWeb.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.FontWeb.props",
       "PackagePath": "buildTransitive\\FontWeb.props"
     }
   ],

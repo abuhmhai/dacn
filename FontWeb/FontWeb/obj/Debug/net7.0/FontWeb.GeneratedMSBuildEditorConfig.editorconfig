@@ -9,67 +9,67 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FontWeb
 build_property.RootNamespace = FontWeb
-build_property.ProjectDir = C:\Users\phanp\Desktop\CMC_Ki_6\Do_An\FontWeb\FontWeb\
+build_property.ProjectDir = /Users/macbook/Desktop/dacn/FontWeb/FontWeb/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\phanp\Desktop\CMC_Ki_6\Do_An\FontWeb\FontWeb
+build_property.MSBuildProjectDirectory = /Users/macbook/Desktop/dacn/FontWeb/FontWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/App.razor]
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/DashBoard.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaEJvYXJkLnJhem9y
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/DashBoard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGFzaEJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/Detail.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsLnJhem9y
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/Detail.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/DTest.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFRlc3QucmF6b3I=
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/DTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRFRlc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/Linh.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGluaC5yYXpvcg==
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/Linh.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGluaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/Regist.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0LnJhem9y
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/Regist.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/Stock.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvY2sucmF6b3I=
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/Stock.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RvY2sucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/_Imports.razor]
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-fmhxe6dovz
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lqueogd62m
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanp/Desktop/CMC_Ki_6/Do_An/FontWeb/FontWeb/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+[/Users/macbook/Desktop/dacn/FontWeb/FontWeb/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

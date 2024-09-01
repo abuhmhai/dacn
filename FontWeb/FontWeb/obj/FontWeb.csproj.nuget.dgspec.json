@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\FontWeb.csproj": {}
+    "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/FontWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\FontWeb.csproj": {
+    "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/FontWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\FontWeb.csproj",
+        "projectUniqueName": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/FontWeb.csproj",
         "projectName": "FontWeb",
-        "projectPath": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\FontWeb.csproj",
-        "packagesPath": "C:\\Users\\phanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phanp\\Desktop\\CMC_Ki_6\\Do_An\\FontWeb\\FontWeb\\obj\\",
+        "projectPath": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/FontWeb.csproj",
+        "packagesPath": "/Users/macbook/.nuget/packages/",
+        "outputPath": "/Users/macbook/Desktop/dacn/FontWeb/FontWeb/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\phanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/macbook/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,6 +67,10 @@
               "target": "Package",
               "version": "[7.0.20, )"
             },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -94,6 +91,10 @@
               "target": "Package",
               "version": "[26.2.4, )"
             },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
             "Trady.Core": {
               "target": "Package",
               "version": "[3.2.9, )"
@@ -105,6 +106,10 @@
             "pythonnet": {
               "target": "Package",
               "version": "[3.0.3, )"
+            },
+            "runtime.native.System.Data.SqlClient.sni": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
@@ -118,6 +123,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -126,7 +145,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
         }
       }
     }
