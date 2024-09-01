@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FontWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fb11c80daa9fb3b341f378e72307df76460e7e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f859823968b5cf0fa5bbf08b9597de3bda65157")]
 [assembly: System.Reflection.AssemblyProductAttribute("FontWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FontWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
